@@ -1,2 +1,10 @@
 This is my first class in skillorbit.
 Learnin about git and git bash
+HTML-HYPERTEXT MARKUP LANGUAGE
+HYPERTEXT-Allows you to link to one webpage to another webpage
+MARKUP LANGUAGE-It is LANGUAGE HTML tags
+HEAD-provides information about your web page to browser
+BODY-showing the content on webpage
+EMOJI-windows key+dot
+META-it is used te webpage to be avilable in all devices
+IMAGES-www.pexels.com
