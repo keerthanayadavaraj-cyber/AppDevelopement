@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .body{
+        background-color: bisque;
+        margin: 0;
+    }
+    .parent{
+        display:grid;
+        grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+        gap: 30px;
+        padding: 20px;
+
+
+    }
+    .product{
+        background-color: burlywood;
+        text-align: center;
+        border-radius: 10px;
+        padding: 10px;
+        box-shadow: 5px 6px 20px rgba(red, green, blue, alpha);
+        padding-bottom:15px ;
+        border: 2px solid black;
+    }
+
+
+    .product img{
+        object-fit: cover;
+        height: 200px;
+        width: 100%;
+    }
+    .product button{
+        border:2px solid black;
+        padding: 6px 10px;
+        border-radius: 300px;
+        background: linear-gradient(to right,red,black);
+        color: white;
+    }
+</style>
+<body>
+    <button></button>
+    <div class="parent">
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1728910107534-e04e261768ae?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+            <h2>Butter Chicken</h2>
+            <p>1000</p>
+            <button>Add to cart</button>
+
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1569718212165-3a8278d5f624?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+            <h2>Ramen</h2>
+            <p>500</p>
+            <button>Add to cart</button>
+        </div>    
+
+        <div class="product">
+            <img src="https://plus.unsplash.com/premium_photo-1664472637341-3ec829d1f4df?q=80&w=1025&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+            <h2>Pad Tai</h2>
+            <p>600</p>
+            <button>Add to cart</button>
+        </div>
+            
+
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1727280376746-b89107a5b0df?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+            <h2>Tandoori</h2>
+            <p>800</p>
+            <button>Add to cart</button>
+        </div>
+
+
+
+        </div>
+
+    </div>
+</body>
+</html>
